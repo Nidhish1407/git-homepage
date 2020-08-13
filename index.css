@@ -1,0 +1,138 @@
+.back{
+    /* box-sizing: border-box; */
+    position:fixed;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: white; */
+   
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.google-container{
+     
+    align-self:center;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    flex-grow:1;
+    margin-bottom: 200px;
+}
+ 
+#search-bar{
+   display:block;
+   padding:3% 35%;
+   border-radius: 30px;
+   margin:10px;
+   border:1px solid rgb(192, 190, 190);
+   
+} 
+#search-bar:hover{
+    box-shadow:0px 0px 1px 1px rgb(192, 190, 190);
+    /* border:1px solid gray; */
+}
+#search-bar:focus{
+   outline:rgb(192, 190, 190); ;
+}
+.nav{ 
+    position:relative;
+    padding:1%;
+    margin:0;
+    left:0;
+    align-self:flex-end;
+    display:flex;
+    justify-content: flex-end;
+    font-size: small;
+}
+.navlist{
+    list-style: none;
+    display:flex;
+    margin-top:-15px;
+    padding:0;
+    opacity:0.8;
+}
+a{
+  color: black;
+  text-decoration: none;
+  padding: 15px 10px;
+  display: inline-block;
+  width: 100%;
+  
+}
+a:hover{
+    text-decoration: underline;
+}
+#sign button{
+    background-color: blue;
+    color:white ;
+    margin:-3px;
+    font-size: smaller;
+   
+    text-align: center;
+}
+
+.btn{
+   
+   padding:0 0 0 0;
+   margin:0;
+   
+}
+.btn-list{
+  
+    margin:0;
+    padding:0px 150px 0px 150px;
+    list-style: none; 
+    display:flex;
+}
+.btn-list li button{
+    border:1px solid white;
+    font-weight: 100;
+    opacity:0.7;
+    padding:7px 15px 7px 15px;
+}
+.btn-list li button:hover{
+   border:1px solid gray;
+   border-radius: 2px;
+}
+
+#lang{
+    display:inline-block;
+    color: blue;
+}
+
+.footer{
+    background-color: rgb(233, 229, 229);
+    
+    align-self: stretch; 
+    font-size: small;
+    opacity:0.7;
+}
+
+#india{
+    margin-left: 25px;
+   
+}
+.footer-wrapper{
+    display:flex;
+    justify-content: space-between;
+    margin-top: -25px;  
+    margin-bottom: -10px;
+}
+#footer-links1{
+    display:inline-block;
+    list-style: none;
+    margin-left: -25px;
+   
+    display:flex;
+}
+#footer-links2{
+    display:inline-block;
+    list-style: none;
+    margin-right: 15px;
+    display:flex;
+}
