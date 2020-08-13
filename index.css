@@ -21,17 +21,31 @@
     justify-content:center;
     align-items: center;
     flex-grow:1;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
- 
+#logo{
+    margin-bottom: 20px;
+}
 #search-bar{
    display:block;
-   padding:3% 35%;
+   padding:2.8% 9%;
    border-radius: 30px;
    margin:10px;
    border:1px solid rgb(192, 190, 190);
-   
+   opacity:0.8;
 } 
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 100px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-image: url('https://www.google.com/images/searchbox/desktop_searchbox_sprites302_hr.webp');
+    background-position: 10px 7px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+  }
+
 #search-bar:hover{
     box-shadow:0px 0px 1px 1px rgb(192, 190, 190);
     /* border:1px solid gray; */
@@ -47,14 +61,14 @@
     align-self:flex-end;
     display:flex;
     justify-content: flex-end;
-    font-size: small;
+    font-size:0.9em;
 }
 .navlist{
     list-style: none;
     display:flex;
     margin-top:-15px;
     padding:0;
-    opacity:0.8;
+    opacity:0.9;
 }
 a{
   color: black;
@@ -109,7 +123,7 @@ a:hover{
     background-color: rgb(233, 229, 229);
     
     align-self: stretch; 
-    font-size: small;
+    font-size: 1em;
     opacity:0.7;
 }
 
